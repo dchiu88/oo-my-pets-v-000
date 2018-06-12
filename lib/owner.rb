@@ -1,3 +1,4 @@
+require 'pry'
 class Owner
   attr_reader :species, :pets
   attr_accessor :name
@@ -61,5 +62,5 @@ class Owner
     end
     pets.clear
   end
- 
+  binding.pry
 end
